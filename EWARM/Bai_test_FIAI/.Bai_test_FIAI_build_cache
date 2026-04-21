@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\pj_mx\Bai_test_FIAI\EWARM\Bai_test_FIAI\Exe\Bai_test_FIAI.out</Path>
+            <Output>
+                <Path>D:\pj_mx\Bai_test_FIAI\EWARM\Bai_test_FIAI\List\Bai_test_FIAI.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>
