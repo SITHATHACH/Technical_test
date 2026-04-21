@@ -1,14 +1,16 @@
-
+/* BÀI KIỂM TRA THỰC HÀNH LẬP TRÌNH NHÚNG STM32 
+● Thiết kế firmware thời gian thực có tính ổn định và tất định 
+● Làm chủ Timer, PWM, Interrupt, DMA 
+● Viết code tối ưu, không gây nghẽn CPU 
+● Tổ chức code rõ ràng, dễ mở rộng
+*/
 #include "main.h"
 
 #define TABLE_SIZE 120
 #define PWM_MAX    999
 
-
 TIM_HandleTypeDef htim4;
 DMA_HandleTypeDef hdma_tim4_up;
-
-
 
 uint16_t dma_burst_buffer[TABLE_SIZE * 3]; 
 volatile uint8_t is_running = 1;

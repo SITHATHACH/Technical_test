@@ -63,9 +63,6 @@ void Error_Handler(void);
 #define PIN_SETUP_GPIO_Port GPIOA
 #define PIN_SETUP_EXTI_IRQn EXTI0_IRQn
 
-#define TABLE_SIZE 120
-#define PWM_MAX    999
-
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
